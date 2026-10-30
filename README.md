@@ -84,7 +84,3 @@ SELECT FROM WHERE;
 INSERT students VALUES (1, 'Ravi');
 UPDATE students SET WHERE id = 1;
 ```
-
-## Important limitation
-
-The grammar recognizes only the SQL features listed above. It is not a complete implementation of the SQL standard and does not validate whether tables or columns exist in a database.
